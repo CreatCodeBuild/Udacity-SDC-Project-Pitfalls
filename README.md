@@ -18,3 +18,4 @@ In the course video [Calibrating Your Camera](https://classroom.udacity.com/nano
 objp = np.zeros((6*9,3), np.float32)
 objp[:,:2] = np.mgrid[0:9,0:6].T.reshape(-1,2)
 ```
+The second is just doing a counting from 0 to 5 for x coordinate, and from 0 to 8 for y coordinate.
