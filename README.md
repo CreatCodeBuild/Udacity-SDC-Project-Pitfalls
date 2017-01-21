@@ -32,4 +32,4 @@ array([[[0, 0, 0, 0],
 .T returns the transpose matrix of a ndarray. Please refer to:
   1. https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.T.html
   2. https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.transpose.html
-
+.reshape reshapes the ndarray. (-1,2) just means "compute the lenght of this dimension by number of elements / 2"
